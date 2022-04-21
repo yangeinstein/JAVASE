@@ -191,6 +191,18 @@ int[] a;//整形数组a。一次可以定义多个数组
 int[] a,b,c;整形数组a,b,c;
 int a[];//整形数组a。只能一次定义一个数组。
 
+a=new int[10];//形式1
+int a1=new a[10];//形式2
+System.out.println("=========================");
+System.out.println("");
+System.out.println("一维数组");
+int[] a={1,5,6};
+int[] b=new int[3];
+b[0]=1;
+b[1]=5;
+b[2]=6;
+System.out.println(a[4]);
+
 
 }
 }
