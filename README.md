@@ -184,6 +184,13 @@ for(i=1;i<=50;i++){
 	//System.out.println("");
 	System.out.println("被5整除"+sum);
 	}
+System.out.println("=========================");
+System.out.println("数组概念，定义和数字实现");
+//数组的两种形式
+int[] a;//整形数组a。一次可以定义多个数组
+int[] a,b,c;整形数组a,b,c;
+int a[];//整形数组a。只能一次定义一个数组。
+
 
 }
 }
