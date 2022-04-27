@@ -5,6 +5,8 @@ class WhileDemo{
 public static void main(String args[]) {
 int i;     //初始化条件
 int sum=0;
+
+
 /* for(int j=0;;j++){
 	for(i=0;;i++)
 	{
@@ -16,6 +18,8 @@ int sum=0;
 /*for(i=0;;i++){
 	System.out.print("第"+i+"次数"+"Welcom to Java!  ");
 }*/
+
+
 System.out.println("长方形输出");
 for(int j=0;j<=4;j++){
 	for(i=0;i<=19;i++)
@@ -39,8 +43,12 @@ for(i=1;i<=5;i++){
 	System.out.println("第"+i+"次");
 }
 System.out.println("整个程序结束");
+
+
 System.out.println("=========================");
 System.out.println("三角形输出");
+
+
 for(int j=0;j<=9;j++){
 	if(j==6){
 		continue;
@@ -57,6 +65,8 @@ for(int j=0;j<=9;j++){
 	}
 }
 System.out.println("ppt案例BreakLoop2");
+
+
 for(int j=0;j<3;j++){
 	System.out.print("pass"+j+":");
 	for(i=0;i<100;i++)
@@ -220,6 +230,7 @@ for(i=c.length;i>=1;i--){
 System.out.println("=========================");
 System.out.println("");
 System.out.println("二维数组赋值输出");
+
 
  int[][] aMatrix = new int[4][]; 
     for (i = 0; i < aMatrix.length; i++)  { 
