@@ -202,7 +202,40 @@ b[0]=1;
 b[1]=5;
 b[2]=6;
 System.out.println(a[4]);
+//System.out.println(a[3]); //数组溢出
+System.out.println("=========================");
+System.out.println("");
+System.out.println("一维数组赋值输出");
+int[] c=new int[10];
+for(i=0;i<c.length;i++){
+	c[i]=2*i;
+	System.out.print(c[i]+"  ");
+}
+System.out.println("");
+for(i=c.length;i>=1;i--){
+	if(i==5) System.out.println("");
+	System.out.print("数组下标"+(i-1)+"元素值"+c[i-1]+"  ");
+	
+}
+System.out.println("=========================");
+System.out.println("");
+System.out.println("二维数组赋值输出");
 
+ int[][] aMatrix = new int[4][]; 
+    for (i = 0; i < aMatrix.length; i++)  { 
+        aMatrix[i] = new int[i+1]; //创建子数组 
+        for (int j = 0; j < aMatrix[i].length; j++) { 
+          aMatrix[i][j] = i + j; 
+        } 
+    } 
+	
+    //输出数组元素 
+    for ( i = 0; i < aMatrix.length; i++) { 
+      for (int j = 0; j < aMatrix[i].length; j++) { 
+        System.out.print(aMatrix[i][j] + " "); 
+      } 
+      System.out.println(); 
+    } 
 
 }
 }
